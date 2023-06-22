@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ background-color:   #F9EEDB; 
+
+}
+
+.container {
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 5px 50px 30px 30px; /* Updated padding: top right bottom left */
+    background-color:  #F8F4E5;
+    box-shadow: 0 0 15px rgba(43, 42, 76, 0.1);
+    border-radius: 5px;
+
+   
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+.lab{
+    display:flex;
+    margin-bottom: 10px;;
+}
+.lab>label{
+    font-family: 'Raleway', sans-serif;
+
+    width:20%;
+    align-items: right;
+}
+form {
+    margin-top: 20px;
+
+}
+
+label {
+    display: inline;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width:100%;
+    display:inline;
+    padding: 12px;
+    margin-top: 5px;
+    border: 0.5px solid #2B2A4C;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fbfbfb;
+    color: #555555;
+}
+
+select {
+    height: 40px;
+}
+
+input[type="submit"] {
+    width: 100%;
+   
+    padding:12px;
+    margin-top: 30px;
+    background-color:#de9b1f;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+input[type="submit"]:hover {
+    background-color: #b06f1f; /* Update the button color on hover here */
+}
+.success {
+    color: #1B9C85;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
